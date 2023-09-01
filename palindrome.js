@@ -1,13 +1,12 @@
-let str="naman"
+let str = "naman"
 
-let str2=""
+let str2 = ""
 
-for(let i=str.length-1; i>=0; i--)
-{
- str2+=str[i]
+for (let i = str.length - 1; i >= 0; i--) {
+	str2 += str[i]
 }
-if(str==str2){
+if (str == str2) {
 	console.log("palindrome")
-}else{
+} else {
 	console.log("not palindrome")
 }
