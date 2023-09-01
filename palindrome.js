@@ -6,7 +6,7 @@ for (let i = str.length - 1; i >= 0; i--) {
 	str2 += str[i]
 }
 if (str == str2) {
-	console.log("palindrome")
+	console.log("Palindrome")
 } else {
-	console.log("not palindrome")
+	console.log("Not Palindrome")
 }
